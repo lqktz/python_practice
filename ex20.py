@@ -11,8 +11,9 @@ def rewind(file_name):
     file_name.seek(0)
 
 def print_a_line(line_count,file_name):
-# readline()读取一行,直到\n,返回的是该行的值,包括\n,所以会有换行
-# file 会记录每次readline读取后的位置,用于下次的读取
+    r"""readline()读取一行,直到\n,返回的是该行的值,包括\n,所以会有换行
+    file 会记录每次readline读取后的位置,用于下次的读取
+    """
     print line_count,file_name.readline()
 
 current_file = open(input_file)

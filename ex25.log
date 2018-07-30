@@ -1,0 +1,43 @@
+"""
+这是函数测试的输出代码
+"""
+
+Python 2.7.14 |Anaconda, Inc.| (default, Dec  7 2017, 17:05:42) 
+[GCC 7.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ex25
+>>> sentence = "this a simple good sentence."
+>>> words = ex25.break_words(sentence)
+>>> words
+['this', 'a', 'simple', 'good', 'sentence.']
+>>> sorted_words = ex25.sort_words(words)
+>>> sorted_words
+['a', 'good', 'sentence.', 'simple', 'this']
+>>> ex25.print_first_word(words)
+this
+>>> ex25.print_last_word(words)
+sentence.
+>>> sorted_words
+['a', 'good', 'sentence.', 'simple', 'this']
+>>> ex25.print_first_and_last_word(sentence)
+this
+sentence.
+>>> ex25.print_first_and_last_sorted(sentence)
+a
+this
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
